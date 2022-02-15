@@ -1,0 +1,4 @@
+FROM openjdk:11
+EXPOSE 8081
+ADD target/PRODUCT-PAGE.jar PRODUCT-PAGE.jar
+ENTRYPOINT ["java","-jar","/PRODUCT-PAGE.jar"]
