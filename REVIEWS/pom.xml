@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.impetus</groupId>
 	<artifactId>REVIEWS</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>REVIEWS</name>
 	<description>Book store project for Spring Boot</description>
 	<properties>
@@ -38,7 +37,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>reviews</finalName>
 	</build>
 
 </project>
