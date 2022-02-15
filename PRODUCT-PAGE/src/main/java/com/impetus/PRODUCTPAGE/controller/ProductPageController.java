@@ -16,8 +16,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/bookStore")
 public class ProductPageController {
-    String bookDetailsURL="http://34.135.14.219/BookDetails/";
-    String bookReviewsURL="http://34.68.119.163/reviews/";
+    String bookDetailsURL="http://34.68.119.163/BookDetails/";
+    String bookReviewsURL="http://34.121.58.87/reviews/";
 
     private RestTemplate restTemplate=new RestTemplate();
     @GetMapping("/ViewAllBooks")
